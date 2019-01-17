@@ -1,0 +1,131 @@
+
+#wrapper {
+   background-color: lightgrey;
+}
+
+body {
+    margin: 0px;
+    display: grid;
+
+
+}
+
+#banner {
+    display:flex;
+    justify-content: center;
+    font-family: 'Open sans', sans-serif;
+    background-color: white;
+}
+
+
+
+
+
+/* navigation */
+
+div#navbar {
+    background-color: black;
+    height:52px;
+    width:100%;
+    display: flex;
+    justify-content: left;
+}
+
+div#navbar a{
+
+}
+
+/* articles */
+
+div#section {
+   background-color: lightgrey;
+    height: 100%;
+}
+
+div#wrapper {
+    margin:auto;
+}
+
+.article {
+    background-color: white;
+    margin:10px;
+    padding:10px;
+    width:343px;
+    height:350px;
+    font-family: 'Open sans', sans-serif;
+
+}
+
+.articlelente {
+    background-color: white;
+    margin:10px;
+    padding:10px;
+    width:343px;
+    height:100%;
+    font-family: 'Open sans', sans-serif;
+}
+
+div#sectionlente {
+    background-color: lightgrey;
+    height: 100%;
+}
+
+div#berichten {
+    background-color: white;
+    margin: 10px;
+    padding:10px;
+    height: 200px;
+    width:343px;
+    font-family: 'Open sans', sans-serif;
+}
+
+
+div#nieuws {
+    background-color: white;
+    margin: 10px;
+    padding:10px;
+    height: 150px;
+    width:343px;
+    font-family: 'Open sans', sans-serif;
+}
+
+div#dieren\ nieuws a {
+    color:crimson;
+    text-decoration: none;
+}
+
+div#text\ links a {
+  color:crimson;
+  text-decoration: none;
+}
+
+/* buttons */
+
+.buttons{
+    cursor: pointer;
+    padding:10px;
+    margin-top:10px;
+    margin-bottom: 10px;
+    background-color: crimson;
+    border-color: crimson;
+}
+
+h3 {
+    font-family: 'Open sans', sans-serif;
+}
+
+/* tablet version */
+
+@media all and (min-width: 600px) {
+   body {
+       margin:0px;
+       display:grid;
+       grid-template-columns: 1fr 1fr 1fr;
+       grid-template-rows: 86px 51px 380px 380px 380px 380px 240px 180px;
+   }
+
+   #banner {
+       grid-column: 2;
+       grid-row: 1;
+   }
+}
