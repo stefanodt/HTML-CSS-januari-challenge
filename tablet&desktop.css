@@ -17,6 +17,8 @@
     }
 }
 
+/* tablet */
+
 @media all and (min-width: 768px) {
     #homeNav {
         padding: 5px;
@@ -81,7 +83,13 @@
     }
 }
 
+/* desktop */
+
 @media all and (min-width: 992px) {
+
+
+
+
     #homeNav {
         padding:5px;
         grid-column: 1;
