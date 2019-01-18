@@ -11,30 +11,105 @@
 body {
     margin: 5px;
     display: grid;
-
-
 }
 
+/* banners */
 #banner {
     text-align: center;
     display:grid;
     font-family: 'Open sans', sans-serif;
     background-color: white;
     margin-top: 0px;
-    margin-bottom: 25px;
+    padding-bottom:20px;
 }
 
-#title {
+#bannerlente {
+    text-align: center;
+    display:grid;
+    font-family: 'Open sans', sans-serif;
+    background-color: white;
+    margin-top: 0px;
+    padding-bottom:20px;
+}
 
+/* texten */
+
+#Verderkijken {
+    text-align: justify;
+    display: inline-block;
 }
 
 
+#wildkamperen {
+    text-align: justify;
+    display: inline-block;
+}
 
+#backpacking {
+    text-align: justify;
+    display: inline-block;
+}
+/* images */
 
+img#lenteIMG {
+   width:100%;
+}
+
+img#wildcamperenIMG {
+    width:100%;
+}
+
+img#wildcamperenIMG2 {
+    width: 100%;
+}
+
+img#backpackIMG1 {
+    width:100%;
+}
+
+img#backpackIMG2 {
+    width:100%;
+}
+
+img#archeologieIMG {
+    width:100%;
+}
+
+#kwastIMG {
+    display: inline-block;
+    float:right;
+}
+
+/* small texten */
+#minitext{
+    font-size: 12px;
+    text-align: center;
+    color:lightgrey;
+
+}
+
+#smalltext {
+    text-align: left;
+    font-size: 12px;
+    color:lightgrey;
+
+}
+
+#smalltext2 {
+    text-align: center;
+    font-size: 12px;
+    color:lightgrey;
+
+}
+
+#smalltext3 {
+    text-align: center;
+    font-size: 12px;
+    color:lightgrey;
+
+}
 
 /* navigation */
-
-
 
 nav {
     background-color:black;
@@ -47,7 +122,6 @@ nav {
     font-size: 14px;
     padding-left: 18px;
     margin: auto;
-
 }
 
 #navbar a {
@@ -56,11 +130,9 @@ nav {
     font-family: 'Open sans', sans-serif;
 }
 
-
 /* articles */
 
 div#section {
-   background-color: lightgrey;
     height: 100%;
 }
 
@@ -76,9 +148,10 @@ div#section a {
 
 div#wrapper {
     max-width: 960px;
-    padding: 10px;
+    padding: 0px;
     margin: auto;
     background: lightgrey;
+    height:100%;
 }
 
 .article {
@@ -108,12 +181,16 @@ article {
     transition: box-shadow .25s;
     box-shadow: 0px 0px 1px 3px rgba(0,0,0,0.10)
 }
-
-
-
-
-
-
+.skipPage {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    text-align: left;
+    font-family: 'Open sans', sans-serif;
+    transition: box-shadow .25s;
+    box-shadow: 0px 0px 1px 3px rgba(0,0,0,0.10)
+}
 
 div#dieren\ nieuws a {
     color:crimson;
@@ -136,6 +213,10 @@ div#text\ links a {
     border-color: crimson;
     color:white;
     max-width: 97.34px;
+}
+
+.buttons:hover {
+    background-color: darkred;
 }
 
 
