@@ -1,0 +1,145 @@
+@media all {
+    #homeNav {
+        padding: 5px;
+    }
+
+    #archeologieNav {
+
+        padding: 5px;
+    }
+
+    #backpackNav {
+        padding: 5px;
+    }
+
+    #bergNav {
+        padding:5px;
+    }
+}
+
+@media all and (min-width: 768px) {
+    #homeNav {
+        padding: 5px;
+        grid-column:1 ;
+        grid-row:1 ;
+    }
+
+    #archeologieNav {
+        padding:5px;
+        grid-column: 2;
+        grid-row: 1;
+    }
+
+    #backpackNav {
+        padding:5px;
+        grid-column: 3;
+        grid-row: 1;
+    }
+
+    #bergNav {
+        padding:5px;
+        grid-column: 4;
+        grid-row: 1;
+    }
+
+    #article1 {
+        padding:5px;
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    #article2 {
+        padding:5px;
+        grid-column: 2;
+        grid-row: 1;
+    }
+
+    #article3 {
+        padding:5px;
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    #article4 {
+        padding:5px;
+        grid-column: 2;
+        grid-row: 2;
+    }
+
+    #links1 {
+        padding:5px;
+        grid-column: 1;
+        grid-row: 5;
+        grid-column-end: 3;
+    }
+
+    #links2 {
+        padding:5px;
+        grid-row: 6;
+        grid-column: 1;
+        grid-column-end: 3;
+    }
+}
+
+@media all and (min-width: 992px) {
+    #homeNav {
+        padding:5px;
+        grid-column: 1;
+        grid-row:1;
+    }
+
+    #archeologieNav {
+        padding:5px;
+        grid-column: 2;
+        grid-row: 1;
+    }
+
+    #backpackNav {
+        padding:5px;
+        grid-column: 3;
+        grid-row: 1;
+    }
+
+    #bergNav {
+        padding:5px;
+        grid-column: 4;
+        grid-row: 1;
+    }
+
+    #article1 {
+        padding:5px;
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    #article2 {
+        padding:5px;
+        grid-column: 2;
+        grid-row:1;
+    }
+
+    #article3 {
+        padding:5px;
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    #article4 {
+        padding:5px;
+        grid-column: 2;
+        grid-row: 2;
+    }
+
+    #links1 {
+        padding:5px;
+        grid-column:3 ;
+        grid-row: 1;
+    }
+
+    #links2 {
+        padding:5px;
+        grid-column: 3;
+        grid-row: 2;
+        height: 50%;
+    }
+}

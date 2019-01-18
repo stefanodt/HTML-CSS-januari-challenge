@@ -1,20 +1,28 @@
 
-#wrapper {
-   background-color: lightgrey;
+* {
+    box-sizing: border-box
 }
 
+
+
 body {
-    margin: 0px;
+    margin: 5px;
     display: grid;
 
 
 }
 
 #banner {
-    display:flex;
-    justify-content: center;
+    text-align: center;
+    display:grid;
     font-family: 'Open sans', sans-serif;
     background-color: white;
+    margin-top: 0px;
+    margin-bottom: 25px;
+}
+
+#title {
+
 }
 
 
@@ -23,17 +31,28 @@ body {
 
 /* navigation */
 
-div#navbar {
-    background-color: black;
-    height:52px;
-    width:100%;
-    display: flex;
-    justify-content: left;
+
+
+nav {
+    background-color:black;
+    max-width: 960px;
+    width: 100%;
+    display: grid;
+    grid-column-gap: 0px;
+    grid-row-gap: 1px;
+    text-align: left;
+    font-size: 14px;
+    padding-left: 18px;
+    margin: auto;
+
 }
 
-div#navbar a{
-
+#navbar a {
+    color:white;
+    text-decoration: none;
+    font-family: 'Open sans', sans-serif;
 }
+
 
 /* articles */
 
@@ -42,52 +61,56 @@ div#section {
     height: 100%;
 }
 
+div#section a {
+    width: 100%;
+    display: grid;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    margin: auto;
+    color: black;
+    text-decoration: none;
+}
+
 div#wrapper {
-    margin:auto;
+    max-width: 960px;
+    padding: 10px;
+    margin: auto;
+    background: lightgrey;
 }
 
 .article {
     background-color: white;
-    margin:10px;
-    padding:10px;
-    width:343px;
-    height:350px;
-    font-family: 'Open sans', sans-serif;
-
-}
-
-.articlelente {
-    background-color: white;
-    margin:10px;
-    padding:10px;
-    width:343px;
-    height:100%;
-    font-family: 'Open sans', sans-serif;
-}
-
-div#sectionlente {
-    background-color: lightgrey;
-    height: 100%;
-}
-
-div#berichten {
-    background-color: white;
+    padding: 10px;
     margin: 10px;
-    padding:10px;
-    height: 200px;
-    width:343px;
+    text-decoration: none;
     font-family: 'Open sans', sans-serif;
+    transition: box-shadow .25s;
+    box-shadow: 0px 0px 1px 3px rgba(0,0,0,0.10)
+}
+
+article {
+    width: 100%;
+    display: grid;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
 }
 
 
-div#nieuws {
+.bottom {
     background-color: white;
+    padding: 10px;
     margin: 10px;
-    padding:10px;
-    height: 150px;
-    width:343px;
+    text-decoration: none;
     font-family: 'Open sans', sans-serif;
+    transition: box-shadow .25s;
+    box-shadow: 0px 0px 1px 3px rgba(0,0,0,0.10)
 }
+
+
+
+
+
+
 
 div#dieren\ nieuws a {
     color:crimson;
@@ -108,24 +131,14 @@ div#text\ links a {
     margin-bottom: 10px;
     background-color: crimson;
     border-color: crimson;
+    color:white;
+    max-width: 97.34px;
 }
+
 
 h3 {
     font-family: 'Open sans', sans-serif;
 }
 
-/* tablet version */
 
-@media all and (min-width: 600px) {
-   body {
-       margin:0px;
-       display:grid;
-       grid-template-columns: 1fr 1fr 1fr;
-       grid-template-rows: 86px 51px 380px 380px 380px 380px 240px 180px;
-   }
 
-   #banner {
-       grid-column: 2;
-       grid-row: 1;
-   }
-}
